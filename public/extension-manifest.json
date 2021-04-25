@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Tabnize",
+  "version": "0.1.0",
+  "description": "A Tab organize",
+  "author": "Wirya Ramadhan",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["main.js"],
+      "css": ["main.css"]
+    }
+  ],
+  "web_accessible_resources": ["static/*"],
+  "permissions": ["storage"]
+}
